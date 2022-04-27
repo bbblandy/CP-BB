@@ -1,7 +1,5 @@
 from productBest import *
 
-###TESSSSST#####
-# TEST 2
 
 def testConstructor():
     p1 = Product()
