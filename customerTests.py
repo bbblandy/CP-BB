@@ -13,7 +13,7 @@ def testPropertyGetters():
     print(f"Results -first: {c.firstName}, last: {c.lastName}, email: {c.email}")
 
 def testPropertySetters():
-    c = Customer('@', 'Brendan', 'Blandy')
+    c = Customer('email', 'first', 'last')
     c.email= '@'
     c.firstName = "FIRST"
     c.lastName = "LAST"
