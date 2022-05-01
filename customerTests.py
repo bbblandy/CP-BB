@@ -1,6 +1,5 @@
 from customer import *
 
-
 def testConstructor():
     c1 = Customer()
     print(f"Testing constructor with default values.  Expect default values. {c1}")
@@ -9,12 +8,12 @@ def testConstructor():
 
 
 def testPropertyGetters():
-    c = Customer('email', 'first', 'last')
+    c = Customer('@', 'Brendan', 'Blandy')
     print(f"Testing property getters.  Expect individual attributes for person C.")
     print(f"Results -first: {c.firstName}, last: {c.lastName}, email: {c.email}")
 
 def testPropertySetters():
-    c = Customer('email', 'first', 'last')
+    c = Customer('@', 'Brendan', 'Blandy')
     c.email= '@'
     c.firstName = "FIRST"
     c.lastName = "LAST"
