@@ -1,3 +1,5 @@
+#TEST
+
 class Customer:
     # """ This class representa a customer.  It uses private attributes and property getters and setters.
     #     Setters have appropriate validation that raise an exception when invalid data is used."""
@@ -22,7 +24,7 @@ class Customer:
 
    # setters or mutators allow a programmer to change attribute value
 
-    #@email.setter
+    @email.setter
     def setEmail(self, email):
         self.email = email
 
